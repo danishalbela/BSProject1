@@ -222,12 +222,46 @@
 
 
 /* media queries for responsiveness */
+
+@media screen and (max-width: 1200px) {
+  .hero-video--section{
+    width: 20rem;
+    border-radius: 1rem;
+  }
+}
 @media screen and (max-width: 998px){
      .navbar-toggler{
       border-color: var(--bs-main-color);
      }
      .navbar-toggler-icon{
       color: var(--bs-main-color);
-      background-color: var(--bs-main-color);
+      background-color: var(--bs-secondary-color);
      }
+     .bg-main .row{
+      /* margin-top: 0rem; */
+     }
+
+     h1{
+      font-size: 1.8rem;
+     }
+     section .common-heading{
+      font-size: 2rem;
+     }
+     section .para-width{
+      width: auto;
+     }
+     .hero-section{
+      height: 100vh;
+     }
+     p{
+      font-size: 20px;
+     }
+     h2{
+      font-size: 1.8rem;
+      line-height: 3rem;
+     }
+     .carousel-indicators {
+      bottom: -7%;
+  }
+  
 }
